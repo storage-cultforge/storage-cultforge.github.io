@@ -54,5 +54,8 @@
             ]
         ]
     },
-    "matrix-engine" : "matrix-charlie-alpha-x1"
+    "matrix-engine" : {
+        "id"   : "matrix-charlie-alpha-x1",
+        "hash" : "cf7dfdd36610f39c8a83deb7aa5f4cb4a94c9869"
+    }
 }
