@@ -52,6 +52,12 @@
                 "Sunny.zip",
                 "Voyager.zip"
             ]
+        ],
+        "resourcepacks" : [
+            "Patrix_1.20_32x_bonus.zip",
+            "realistic_villagers.zip",
+            "realistic-snow.zip",
+            "Snowy_Mountains_Sky_[v1.7].zip"
         ]
     },
     "matrix-engine" : {

@@ -1,5 +1,115 @@
 {
     "builds" : [
         "Aetherion-1.0"
-    ]
+    ],
+
+    "matters" : {
+        "mods" : {
+            "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar" : {
+                "name"    : "Ambient Sounds",
+                "desc"    : "Improves sound engine",
+                "type"    : "Sounds",
+                "image"   : null,
+                "version" : "6.1.11"
+            },
+            "architectury-9.2.14-forge.jar" : {
+                "name" : "Architectury",
+                "desc" : null,
+                "type" : "Construction",
+                "image"   : null,
+                "version" : "9.2.14"
+            },
+            "balm-forge-1.20.1-7.3.34-all.jar" : {
+                "name" : "Blam",
+                "desc" : "A dependency for some mods",
+                "type" : "Dependency",
+                "image"   : null,
+                "version" : "7.3.34"
+            },
+            "car-forge-1.20.1-1.0.45.jar" : {
+                "name" : "Car",
+                "desc" : "Adds Various automobile components",
+                "type" : "Vehicle",
+                "image"   : null,
+                "version" : "1.0.45"
+            },
+            "com.kythera.seedviewer-1.0.0.jar" : {
+                "name" : "Kythera Chunk Renderer",
+                "desc" : "A Chunk renderer",
+                "type" : "Add-on",
+                "image"   : null,
+                "version" : "1.0.0"
+            },
+            "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar" : {},
+            "crossroads-1.20.1-2.10.3.jar" : {},
+            "curios-forge-5.14.1+1.20.1.jar" : {},
+            "dimdungeons-202-forge-1.20.1.jar" : {},
+            "essentials-1.20.1-2.16.0.jar" : {},
+            "flib-1.20.1-0.0.15.jar" : {},
+            "geckolib-forge-1.20.1-4.8.2.jar" : {},
+            "immersive_aircraft-1.4.0+1.20.1-forge.jar" : {},
+            "journeymap-1.20.1-5.10.3-forge.jar" : {},
+            "kotlinforforge-4.11.0-all.jar" : {},
+            "moreartifacts-1.5.0-1.20.1.jar" : {},
+            "mowziesmobs-1.7.3.jar" : {},
+            "preview_OptiFine_1.20.1_HD_U_I6_pre6.jar" : {},
+            "railroadblocksaddon-1.20-0.6.4.jar" : {},
+            "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar" : {},
+            "smallships-forge-1.20.1-2.0.0-b1.4.jar" : {},
+            "sound-physics-remastered-forge-1.20.1-1.5.1.jar" : {},
+            "stalwart-dungeons-1.20.1-1.2.8.jar" : {},
+            "structure_gel-1.20.1-2.16.2.jar" : {},
+            "ToolBelt-1.20.1-1.20.02.jar" : {},
+            "valkyrienskies-120-2.3.0-beta.10.jar" : {},
+            "villagertools-1.20.1-1.0.3.jar" : {},
+            "waystones-forge-1.20.1-14.1.17.jar" : {},
+            "create-1.20.1-6.0.8.jar" : {}
+        },
+        "shaders" : {
+            "Alexei03a V2 Shader Pack.zip" : {
+                "name" : "Alexei03a V2",
+                "desc" : "__short one line desc__",
+                "image" : null,
+                "version" : "2.1"
+            },
+            "Balanced.zip" : {},
+            "Chocapic13 V3 Ultra Optimized Shader Pack.zip" : {},
+            "Chocolate 2.zip" : {},
+            "Chocolate.zip" : {},
+            "GoodMorning.zip" : {},
+            "HappyFace.zip" : {},
+            "Insane-Nights.zip" : {},
+            "iterationT 3.2.0.zip" : {},
+            "Punchy.zip" : {},
+            "Remastered v2.zip" : {},
+            "Remastered.zip" : {},
+            "Sasukedll7170s v06 Ultra Shader Pack.zip" : {},
+            "SEUS v10.0 Ultra DOF.zip" : {},
+            "Sunny.zip" : {},
+            "Voyager.zip" : {}
+        },
+
+        "resourcepacks" : {
+            "Patrix_1.20_32x_bonus.zip" : {
+                "name" : "Patrix 32x",
+                "desc" : "Enhanced Textures",
+                "size" : "3.41MB"
+            },
+            "realistic_villagers.zip" : {
+                "name" : "Realistic Villagers",
+                "desc" : "Villagers Enhanced",
+                "size" : "2.06MB"
+            },
+            "realistic-snow.zip" : {
+                "name" : "Realistic Snow",
+                "desc" : "Realistic SnowFall Efect",
+                "size" : "17.7KB"
+            },
+            "Snowy_Mountains_Sky_[v1.7].zip" : {
+                "name" : "Snowy Mountains Sky",
+                "desc" : "An Extreme Mountains Background",
+                "size" : "67.5MB"
+            }
+        }
+    }
 }
