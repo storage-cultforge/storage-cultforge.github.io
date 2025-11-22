@@ -1,114 +1,410 @@
 {
-    "builds" : [
+    "builds": [
         "Aetherion-1.0"
     ],
-
-    "matters" : {
-        "mods" : {
-            "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar" : {
-                "name"    : "Ambient Sounds",
-                "desc"    : "Improves sound engine",
-                "type"    : "Sounds",
-                "image"   : null,
-                "version" : "6.1.11"
+    "matters": {
+        "mods": {
+            "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar": {
+                "name": "Ambient Sounds",
+                "desc": "Improves environmental and biome ambience.",
+                "type": "Sounds",
+                "image": null,
+                "version": "6.1.11"
             },
-            "architectury-9.2.14-forge.jar" : {
-                "name" : "Architectury",
-                "desc" : null,
-                "type" : "Construction",
-                "image"   : null,
-                "version" : "9.2.14"
+            "architectury-9.2.14-forge.jar": {
+                "name": "Architectury",
+                "desc": "A cross-platform modding API used by many mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "9.2.14"
             },
-            "balm-forge-1.20.1-7.3.34-all.jar" : {
-                "name" : "Blam",
-                "desc" : "A dependency for some mods",
-                "type" : "Dependency",
-                "image"   : null,
-                "version" : "7.3.34"
+            "balm-forge-1.20.1-7.3.34-all.jar": {
+                "name": "Balm",
+                "desc": "A library mod providing shared code for various mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "7.3.34"
             },
-            "car-forge-1.20.1-1.0.45.jar" : {
-                "name" : "Car",
-                "desc" : "Adds Various automobile components",
-                "type" : "Vehicle",
-                "image"   : null,
-                "version" : "1.0.45"
+            "car-forge-1.20.1-1.0.45.jar": {
+                "name": "Car Mod",
+                "desc": "Adds drivable cars and automobile components.",
+                "type": "Vehicle",
+                "image": null,
+                "version": "1.0.45"
             },
-            "com.kythera.seedviewer-1.0.0.jar" : {
-                "name" : "Kythera Chunk Renderer",
-                "desc" : "A Chunk renderer",
-                "type" : "Add-on",
-                "image"   : null,
-                "version" : "1.0.0"
+            "com.kythera.seedviewer-1.0.0.jar": {
+                "name": "Kythera Chunk Renderer",
+                "desc": "Renders world chunks and seed previews.",
+                "type": "Add-on",
+                "image": null,
+                "version": "1.0.0"
             },
-            "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar" : {},
-            "crossroads-1.20.1-2.10.3.jar" : {},
-            "curios-forge-5.14.1+1.20.1.jar" : {},
-            "dimdungeons-202-forge-1.20.1.jar" : {},
-            "essentials-1.20.1-2.16.0.jar" : {},
-            "flib-1.20.1-0.0.15.jar" : {},
-            "geckolib-forge-1.20.1-4.8.2.jar" : {},
-            "immersive_aircraft-1.4.0+1.20.1-forge.jar" : {},
-            "journeymap-1.20.1-5.10.3-forge.jar" : {},
-            "kotlinforforge-4.11.0-all.jar" : {},
-            "moreartifacts-1.5.0-1.20.1.jar" : {},
-            "mowziesmobs-1.7.3.jar" : {},
-            "preview_OptiFine_1.20.1_HD_U_I6_pre6.jar" : {},
-            "railroadblocksaddon-1.20-0.6.4.jar" : {},
-            "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar" : {},
-            "smallships-forge-1.20.1-2.0.0-b1.4.jar" : {},
-            "sound-physics-remastered-forge-1.20.1-1.5.1.jar" : {},
-            "stalwart-dungeons-1.20.1-1.2.8.jar" : {},
-            "structure_gel-1.20.1-2.16.2.jar" : {},
-            "ToolBelt-1.20.1-1.20.02.jar" : {},
-            "valkyrienskies-120-2.3.0-beta.10.jar" : {},
-            "villagertools-1.20.1-1.0.3.jar" : {},
-            "waystones-forge-1.20.1-14.1.17.jar" : {},
-            "create-1.20.1-6.0.8.jar" : {}
+            "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar": {
+                "name": "CreativeCore",
+                "desc": "A required core mod for many advanced mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "2.12.32"
+            },
+            "crossroads-1.20.1-2.10.3.jar": {
+                "name": "Crossroads",
+                "desc": "A tech and magic mod with automation, alchemy, and energy systems.",
+                "type": "Tech",
+                "image": null,
+                "version": "2.10.3"
+            },
+            "curios-forge-5.14.1+1.20.1.jar": {
+                "name": "Curios API",
+                "desc": "Adds extra accessory slots for various mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "5.14.1"
+            },
+            "dimdungeons-202-forge-1.20.1.jar": {
+                "name": "Dimensional Dungeons",
+                "desc": "Adds procedurally generated dungeon dimensions.",
+                "type": "Dungeons",
+                "image": null,
+                "version": "202"
+            },
+            "essentials-1.20.1-2.16.0.jar": {
+                "name": "Essentials",
+                "desc": "Adds helpful utilities, QoL improvements, and commands.",
+                "type": "Utility",
+                "image": null,
+                "version": "2.16.0"
+            },
+            "flib-1.20.1-0.0.15.jar": {
+                "name": "FLib",
+                "desc": "A flexible library for mods like Mowzie's Mobs.",
+                "type": "Dependency",
+                "image": null,
+                "version": "0.0.15"
+            },
+            "geckolib-forge-1.20.1-4.8.2.jar": {
+                "name": "GeckoLib",
+                "desc": "Animation library for complex animated entities.",
+                "type": "Dependency",
+                "image": null,
+                "version": "4.8.2"
+            },
+            "immersive_aircraft-1.4.0+1.20.1-forge.jar": {
+                "name": "Immersive Aircraft",
+                "desc": "Adds flyable aircraft with physics-based controls.",
+                "type": "Vehicle",
+                "image": null,
+                "version": "1.4.0"
+            },
+            "journeymap-1.20.1-5.10.3-forge.jar": {
+                "name": "JourneyMap",
+                "desc": "A real-time minimap and world map.",
+                "type": "UI",
+                "image": null,
+                "version": "5.10.3"
+            },
+            "kotlinforforge-4.11.0-all.jar": {
+                "name": "Kotlin for Forge",
+                "desc": "Kotlin language support for Forge mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "4.11.0"
+            },
+            "moreartifacts-1.5.0-1.20.1.jar": {
+                "name": "More Artifacts",
+                "desc": "Adds new unique items and artifacts.",
+                "type": "Equipment",
+                "image": null,
+                "version": "1.5.0"
+            },
+            "mowziesmobs-1.7.3.jar": {
+                "name": "Mowzie's Mobs",
+                "desc": "Adds high-quality fantasy bosses and creatures.",
+                "type": "Mobs",
+                "image": null,
+                "version": "1.7.3"
+            },
+            "preview_OptiFine_1.20.1_HD_U_I6_pre6.jar": {
+                "name": "OptiFine Preview",
+                "desc": "Graphics enhancements and performance improvements.",
+                "type": "Graphics",
+                "image": null,
+                "version": "HD_U_I6_pre6"
+            },
+            "railroadblocksaddon-1.20-0.6.4.jar": {
+                "name": "Railroad Blocks Addon",
+                "desc": "Expands rail and train-related blocks and decorations.",
+                "type": "Transportation",
+                "image": null,
+                "version": "0.6.4"
+            },
+            "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar": {
+                "name": "Sky Villages",
+                "desc": "Generates sky-floating villages with loot and NPCs.",
+                "type": "World Gen",
+                "image": null,
+                "version": "1.0.4"
+            },
+            "smallships-forge-1.20.1-2.0.0-b1.4.jar": {
+                "name": "Small Ships",
+                "desc": "Adds functional, sail-powered ships.",
+                "type": "Vehicle",
+                "image": null,
+                "version": "2.0.0-b1.4"
+            },
+            "sound-physics-remastered-forge-1.20.1-1.5.1.jar": {
+                "name": "Sound Physics Remastered",
+                "desc": "Adds realistic sound propagation and reverb.",
+                "type": "Sounds",
+                "image": null,
+                "version": "1.5.1"
+            },
+            "stalwart-dungeons-1.20.1-1.2.8.jar": {
+                "name": "Stalwart Dungeons",
+                "desc": "Expands dungeon generation with structures and bosses.",
+                "type": "Dungeons",
+                "image": null,
+                "version": "1.2.8"
+            },
+            "structure_gel-1.20.1-2.16.2.jar": {
+                "name": "Structure Gel API",
+                "desc": "API for structure generation used by worldgen mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "2.16.2"
+            },
+            "ToolBelt-1.20.1-1.20.02.jar": {
+                "name": "ToolBelt",
+                "desc": "Adds a belt item for storing and quickly accessing tools.",
+                "type": "Equipment",
+                "image": null,
+                "version": "1.20.02"
+            },
+            "valkyrienskies-120-2.3.0-beta.10.jar": {
+                "name": "Valkyrien Skies",
+                "desc": "Adds physics-based airships and dynamic ship movement.",
+                "type": "Vehicle",
+                "image": null,
+                "version": "2.3.0-beta.10"
+            },
+            "villagertools-1.20.1-1.0.3.jar": {
+                "name": "Villager Tools",
+                "desc": "Tools for editing, managing, and improving villagers.",
+                "type": "Utility",
+                "image": null,
+                "version": "1.0.3"
+            },
+            "waystones-forge-1.20.1-14.1.17.jar": {
+                "name": "Waystones",
+                "desc": "Adds teleportation waystones for fast travel.",
+                "type": "Utility",
+                "image": null,
+                "version": "14.1.17"
+            },
+            "create-1.20.1-6.0.8.jar": {
+                "name": "Create",
+                "desc": "Mechanical automation and contraptions mod.",
+                "type": "Tech",
+                "image": null,
+                "version": "6.0.8"
+            },
+            "lukis-grand-capitals-1.1.2.jar": {
+                "name": "Luki's Grand Capitals",
+                "desc": "Adds massive city structures and capitals around the world.",
+                "type": "World Gen",
+                "image": null,
+                "version": "1.1.2"
+            },
+            "DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar": {
+                "name": "Distant Horizons",
+                "desc": "Lod-based world rendering to extend render distance massively.",
+                "type": "Graphics",
+                "image": null,
+                "version": "2.3.6-b"
+            }
         },
-        "shaders" : {
-            "Alexei03a V2 Shader Pack.zip" : {
-                "name" : "Alexei03a V2",
-                "desc" : "__short one line desc__",
-                "image" : null,
-                "version" : "2.1"
+        "shaders": {
+            "Alexei03a V2 Shader Pack.zip": {
+                "name": "Alexei03a V2",
+                "desc": "A lightweight, vibrant shader focused on clarity and soft lighting.",
+                "image": null,
+                "version": "2.1"
             },
-            "Balanced.zip" : {},
-            "Chocapic13 V3 Ultra Optimized Shader Pack.zip" : {},
-            "Chocolate 2.zip" : {},
-            "Chocolate.zip" : {},
-            "GoodMorning.zip" : {},
-            "HappyFace.zip" : {},
-            "Insane-Nights.zip" : {},
-            "iterationT 3.2.0.zip" : {},
-            "Punchy.zip" : {},
-            "Remastered v2.zip" : {},
-            "Remastered.zip" : {},
-            "Sasukedll7170s v06 Ultra Shader Pack.zip" : {},
-            "SEUS v10.0 Ultra DOF.zip" : {},
-            "Sunny.zip" : {},
-            "Voyager.zip" : {}
+            "Balanced.zip": {
+                "name": "Balanced Shader",
+                "desc": "A well-balanced shader with smooth lighting and stable FPS.",
+                "image": null,
+                "version": "1.0"
+            },
+            "Chocapic13 V3 Ultra Optimized Shader Pack.zip": {
+                "name": "Chocapic13 V3 Ultra Optimized",
+                "desc": "Highly optimized version of Chocapic13 with strong visuals and low GPU load.",
+                "image": null,
+                "version": "3.0"
+            },
+            "Chocolate 2.zip": {
+                "name": "Chocolate Shaders 2",
+                "desc": "Warm-toned visuals with enhanced bloom and saturated lighting.",
+                "image": null,
+                "version": "2.0"
+            },
+            "Chocolate.zip": {
+                "name": "Chocolate Shaders",
+                "desc": "Soft cinematic lighting with chocolate-themed color warmth.",
+                "image": null,
+                "version": "1.0"
+            },
+            "GoodMorning.zip": {
+                "name": "Good Morning",
+                "desc": "Bright morning-style lighting with soft shadows and calm ambience.",
+                "image": null,
+                "version": "1.0"
+            },
+            "HappyFace.zip": {
+                "name": "HappyFace Shader",
+                "desc": "Colorful and cheerful shader with boosted vibrance and smooth bloom.",
+                "image": null,
+                "version": "1.0"
+            },
+            "Insane-Nights.zip": {
+                "name": "Insane Nights",
+                "desc": "Dark, dramatic nighttime visuals with glowing atmospherics.",
+                "image": null,
+                "version": "1.0"
+            },
+            "iterationT 3.2.0.zip": {
+                "name": "IterationT",
+                "desc": "Modern shader with realistic reflections and detailed lighting.",
+                "image": null,
+                "version": "3.2.0"
+            },
+            "Punchy.zip": {
+                "name": "Punchy Shader",
+                "desc": "High-contrast visuals with punchy colors and crisp highlights.",
+                "image": null,
+                "version": "1.0"
+            },
+            "Remastered v2.zip": {
+                "name": "Remastered Shader V2",
+                "desc": "Enhanced remastered shader with improved shadows and reflections.",
+                "image": null,
+                "version": "2.0"
+            },
+            "Remastered.zip": {
+                "name": "Remastered Shader",
+                "desc": "A polished shader with cinematic colors and smooth ambient occlusion.",
+                "image": null,
+                "version": "1.0"
+            },
+            "Sasukedll7170s v06 Ultra Shader Pack.zip": {
+                "name": "Sasukedll7170s Ultra V06",
+                "desc": "High-end shader with extreme bloom, depth effects, and bright visuals.",
+                "image": null,
+                "version": "0.6"
+            },
+            "SEUS v10.0 Ultra DOF.zip": {
+                "name": "SEUS v10 Ultra DOF",
+                "desc": "Classic SEUS with cinematic depth-of-field and smooth lighting.",
+                "image": null,
+                "version": "10.0"
+            },
+            "Sunny.zip": {
+                "name": "Sunny Shader",
+                "desc": "Bright natural lighting with emphasis on warm sunlight and clarity.",
+                "image": null,
+                "version": "1.0"
+            },
+            "Voyager.zip": {
+                "name": "Voyager Shader",
+                "desc": "Stylized shader with bold colors and atmospheric clouds.",
+                "image": null,
+                "version": "1.0"
+            }
         },
-
-        "resourcepacks" : {
-            "Patrix_1.20_32x_bonus.zip" : {
-                "name" : "Patrix 32x",
-                "desc" : "Enhanced Textures",
-                "size" : "3.41MB"
+        "resourcepacks": {
+            "Patrix_1.20_32x_bonus.zip": {
+                "name": "Patrix 32x",
+                "desc": "Enhanced Textures",
+                "size": "3.41MB"
             },
-            "realistic_villagers.zip" : {
-                "name" : "Realistic Villagers",
-                "desc" : "Villagers Enhanced",
-                "size" : "2.06MB"
+            "realistic_villagers.zip": {
+                "name": "Realistic Villagers",
+                "desc": "Villagers Enhanced",
+                "size": "2.06MB"
             },
-            "realistic-snow.zip" : {
-                "name" : "Realistic Snow",
-                "desc" : "Realistic SnowFall Efect",
-                "size" : "17.7KB"
+            "realistic-snow.zip": {
+                "name": "Realistic Snow",
+                "desc": "Realistic SnowFall Efect",
+                "size": "17.7KB"
             },
-            "Snowy_Mountains_Sky_[v1.7].zip" : {
-                "name" : "Snowy Mountains Sky",
-                "desc" : "An Extreme Mountains Background",
-                "size" : "67.5MB"
+            "Snowy_Mountains_Sky_[v1.7].zip": {
+                "name": "Snowy Mountains Sky",
+                "desc": "An Extreme Mountains Background",
+                "size": "67.5MB"
+            },
+            "3d Ladders 1.1.zip": {
+                "name": "3d Ladders",
+                "desc": "Improved Visuals of Ladders",
+                "size": "12.2KB"
+            },
+            "Alacrity.zip": {
+                "name": "Alacrity",
+                "desc": "Realistic Shaders",
+                "size": "43.5MB"
+            },
+            "animated-items-1_20-1 - 1_4.zip": {
+                "name": "Animated Items",
+                "desc": "Adds Animations for some Items",
+                "size": "648KB"
+            },
+            "AVPBR Retextured R5.zip": {
+                "name": "AVPBR Retextured",
+                "desc": "Overhaul improvs",
+                "size": "12.5MB"
+            },
+            "Better Boats.zip": {
+                "name": "Better Boats",
+                "desc": "Improved Visuals of Boats",
+                "size": "66.5KB"
+            },
+            "Better Title Screens.zip": {
+                "name": "Better Title Screens",
+                "desc": "Good title Screeen",
+                "size": "9.26MB"
+            },
+            "Better_Dogs_V0.41.zip": {
+                "name": "Better Dogs",
+                "desc": "Improved Visuals of Dogs/Wolfs",
+                "size": "10.9MB"
+            },
+            "Better+Lanterns+v1.2(mc-1.20.1).zip": {
+                "name": "Better Lanterns",
+                "desc": "Improved Visuals of Lanterns",
+                "size": "50.1KB"
+            },
+            "Colourful[1.20-1.20.2].zip": {
+                "name": "Colourful",
+                "desc": "Improved textures",
+                "size": "2.25MB"
+            },
+            "FreshAnimations_v1.10.2.zip": {
+                "name": "Fresh Animations",
+                "desc": "Adds Animations for some things",
+                "size": "814KB"
+            },
+            "Ricks Default 9_1.zip": {
+                "name": "Rics Default",
+                "desc": "Improved visuals",
+                "size": "8.03MB"
+            },
+            "Unique Dark - Lite - 1.20.1.zip": {
+                "name": "Unique Dark Lite",
+                "desc": "Dark GUI",
+                "size": "7.23MB"
+            },
+            "Vocal Villagers1.2.zip": {
+                "name": "Vocal Vilagers",
+                "desc": "Imporved villagers Sound",
+                "size": "1.09MB"
             }
         }
     }

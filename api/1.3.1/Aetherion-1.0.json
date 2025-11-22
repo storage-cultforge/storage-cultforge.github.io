@@ -34,6 +34,9 @@
         ]
     },
     "supports": {
+        "mods" : [
+            "DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar"
+        ],
         "shaders": [
             [
                 "Alexei03a V2 Shader Pack.zip",
@@ -58,7 +61,20 @@
             "Patrix_1.20_32x_bonus.zip",
             "realistic_villagers.zip",
             "realistic-snow.zip",
-            "Snowy_Mountains_Sky_[v1.7].zip"
+            "Snowy_Mountains_Sky_[v1.7].zip",
+            "3d Ladders 1.1.zip",
+            "Alacrity.zip",
+            "animated-items-1_20-1 - 1_4.zip",
+            "AVPBR Retextured R5.zip",
+            "Better Boats.zip",
+            "Better Title Screens.zip",
+            "Better_Dogs_V0.41.zip",
+            "Better+Lanterns+v1.2(mc-1.20.1).zip",
+            "Colourful[1.20-1.20.2].zip",
+            "FreshAnimations_v1.10.2.zip",
+            "Ricks Default 9_1.zip",
+            "Unique Dark - Lite - 1.20.1.zip",
+            "Vocal Villagers1.2.zip"
         ]
     },
     "matrix-engine" : {
