@@ -213,6 +213,20 @@
                 "type": "Graphics",
                 "image": null,
                 "version": "2.3.6-b"
+            },
+            "veinminer-1.1.0.jar": {
+                "name": "VeinMiner",
+                "desc": "Allows mining entire veins of ore by breaking a single block.",
+                "type": "Utility",
+                "image": null,
+                "version": "1.1.0"
+            },
+            "jei-1.20.1-forge-15.20.0.126.jar": {
+                "name": "Just Enough Items (JEI)",
+                "desc": "Provides item recipes, uses, and a searchable item list.",
+                "type": "Utility",
+                "image": null,
+                "version": "15.20.0.126"
             }
         },
         "shaders": {
