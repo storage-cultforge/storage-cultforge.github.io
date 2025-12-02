@@ -269,6 +269,48 @@
                 "type": "Library",
                 "image": null,
                 "version": "1.20.1-8.13"
+            },
+            "ImmersiveEngineering-1.20.1-10.2.0-183.jar": {
+                "name": "Immersive Engineering",
+                "desc": "A realistic industrial technology mod focused on electricity, heavy machinery, multiblock structures, and believable engineering systems. Adds power lines, crushers, excavators, refineries, diesel generators, conveyors, and industrial aesthetics.",
+                "type": "Tech / Engineering",
+                "image": null,
+                "version": "1.20.1-10.2.0-183"
+            },
+            "ImmersivePetroleum-1.20.1-4.3.0-30.jar": {
+                "name": "Immersive Petroleum",
+                "desc": "Addon for Immersive Engineering that adds oil fields, pumpjacks, crude oil, refining chains, asphalt, jet fuel, and advanced fuel processing systems. Extends IE’s industrial gameplay with real petroleum engineering.",
+                "type": "Addon / Oil & Fuel",
+                "image": null,
+                "version": "1.20.1-4.3.0-30"
+            },
+            "Mekanism-1.20.1-10.4.16.80.jar": {
+                "name": "Mekanism",
+                "desc": "A high-tech industrial mod featuring advanced machines, digital miners, gas processing, ore tripling/quintupling, teleporters, factories, and universal energy systems. Highly automation-focused with deep tech progression.",
+                "type": "Tech / High-Tech Machinery",
+                "image": null,
+                "version": "1.20.1-10.4.16.80"
+            },
+            "MekanismGenerators-1.20.1-10.4.16.80.jar": {
+                "name": "Mekanism Generators",
+                "desc": "Addon for Mekanism that adds power generation systems: heat generators, bio generators, gas-burning generators, fission reactors, fusion reactors, and turbine systems. Provides mid-to-late-game massive power scaling.",
+                "type": "Addon / Power Generation",
+                "image": null,
+                "version": "1.20.1-10.4.16.80"
+            },
+            "MekanismAdditions-1.20.1-10.4.16.80.jar": {
+                "name": "Mekanism Additions",
+                "desc": "Supplementary Mekanism module adding logistical and cosmetic features like balloons, glow panels, baby mobs, and additional blocks/items used in Mekanism’s expanded recipes and mechanics.",
+                "type": "Addon / Cosmetic + Utility",
+                "image": null,
+                "version": "1.20.1-10.4.16.80"
+            },
+            "MekanismTools-1.20.1-10.4.16.80.jar": {
+                "name": "Mekanism Tools",
+                "desc": "Addon for Mekanism providing toolsets and armor made from Mekanism materials (Osmium, Steel, Bronze, Refined Glowstone, Refined Obsidian). Includes paxels, a multitool that functions as pickaxe + axe + shovel.",
+                "type": "Addon / Tools & Armor",
+                "image": null,
+                "version": "1.20.1-10.4.16.80"
             }
         },
         "shaders": {

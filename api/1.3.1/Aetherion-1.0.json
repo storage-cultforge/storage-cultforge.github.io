@@ -34,7 +34,13 @@
             "jei-1.20.1-forge-15.20.0.126.jar",
             "workers-1.20.1-1.7.9.1.jar",
             "villagernames-1.20.1-8.2.jar",
-            "collective-1.20.1-8.13.jar"
+            "collective-1.20.1-8.13.jar",
+            "ImmersiveEngineering-1.20.1-10.2.0-183.jar", 
+            "ImmersivePetroleum-1.20.1-4.3.0-30.jar", 
+            "MekanismTools-1.20.1-10.4.16.80.jar", 
+            "MekanismAdditions-1.20.1-10.4.16.80.jar", 
+            "Mekanism-1.20.1-10.4.16.80.jar", 
+            "MekanismGenerators-1.20.1-10.4.16.80.jar"
         ]
     },
     "supports": {
