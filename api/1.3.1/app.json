@@ -227,6 +227,48 @@
                 "type": "Utility",
                 "image": null,
                 "version": "15.20.0.126"
+            },
+            "valkyrienskies-120-2.3.0-beta.12.jar": {
+                "name": "Valkyrien Skies",
+                "desc": "Adds realistic, controllable block-built ships with physics and buoyancy for Minecraft.",
+                "type": "Transportation",
+                "image": null,
+                "version": "2.3.0-beta.12"
+            },
+            "eurekaintergrated-1.0.0-forge-1.20.1.jar": {
+                "name": "Valkyrien Skies Eureka Integrated Ships",
+                "desc": "Adds ready-made ship structures for use with Valkyrien Skies and Eureka! Ships., allowing immediate sailing ships without custom build.",
+                "type": "Transportation",
+                "image": null,
+                "version": "1.0.0"
+            },
+            "eureka-1201-1.5.2-beta.3.jar": {
+                "name": "Eureka! Ships!",
+                "desc": "Addon for Valkyrien Skies — lets you build block‑built ships (boats/airships) with a Ship Helm, then assemble and sail them with physics.",
+                "type": "Transportation",
+                "image": null,
+                "version": "1.5.2-beta.3"
+            },
+            "workers-1.20.1-1.7.9.1.jar": {
+                "name": "Villager Workers",
+                "desc": "Adds hireable villager workers that can farm, mine, fish, and perform tasks for you — automates resource gathering and other labour.",
+                "type": "Utility",
+                "image": null,
+                "version": "1.7.9.1"
+            },
+            "villagernames-1.20.1-8.2.jar": {
+                "name": "Villager Names",
+                "desc": "Gives all villagers — vanilla and modded — a default or custom name to make villages more lively. Names appear on the trade screen along with profession. Requires Collective library. :contentReference[oaicite:2]{index=2}",
+                "type": "Utility",
+                "image": null,
+                "version": "1.20.1-8.2"
+            },
+            "collective-1.20.1-8.13.jar": {
+                "name": "Collective",
+                "desc": "A shared library mod used by Serilum’s mods (like Villager Names) — provides common code, config support, and compatibility across Forge/Fabric loaders. :contentReference[oaicite:3]{index=3}",
+                "type": "Library",
+                "image": null,
+                "version": "1.20.1-8.13"
             }
         },
         "shaders": {
