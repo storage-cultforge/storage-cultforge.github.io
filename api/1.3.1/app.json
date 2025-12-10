@@ -311,6 +311,104 @@
                 "type": "Addon / Tools & Armor",
                 "image": null,
                 "version": "1.20.1-10.4.16.80"
+            },
+            "blue-archive-halo-1.2.2-1.20.1-forge.jar": {
+                "name": "Blue Archive Halo",
+                "desc": "Adds Halo-themed cosmetic effects inspired by Blue Archive, giving players floating halos and visual flair. Mostly aesthetic, no major gameplay changes.",
+                "type": "Cosmetic / Aesthetic",
+                "image": null,
+                "version": "1.2.2-1.20.1"
+            },
+            "livingthings-forge-1.20.1-2.3.0.jar": {
+                "name": "Living Things",
+                "desc": "Introduces a wide variety of new animals and creatures to the world, improving biome diversity with new mobs, animations, and behaviors.",
+                "type": "Mobs / World Expansion",
+                "image": null,
+                "version": "1.20.1-2.3.0"
+            },
+            "structureessentials-1.20.1-4.8.jar": {
+                "name": "Structure Essentials",
+                "desc": "Adds numerous custom structures across the overworld and other dimensions, enriching exploration with new buildings, ruins, and points of interest.",
+                "type": "Worldgen / Structures",
+                "image": null,
+                "version": "1.20.1-4.8"
+            },
+            "dungeons-and-taverns-3.0.3.f[Forge].jar": {
+                "name": "Dungeons & Taverns",
+                "desc": "Overhauls world generation with RPG-style dungeons, catacombs, taverns, fortresses, and handcrafted structures for enhanced exploration.",
+                "type": "Worldgen / Dungeons",
+                "image": null,
+                "version": "3.0.3.f"
+            },
+            "cupboard-1.20.1-2.7.jar": {
+                "name": "Cupboard",
+                "desc": "Library mod providing shared code and utilities for various mods. Required as a dependency for multiple worldgen and creature mods.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "1.20.1-2.7"
+            },
+            "aetherial-islands-2.0.1.jar": {
+                "name": "Aetherial Islands",
+                "desc": "Adds floating sky islands with custom biomes, structures, and loot. Enhances vertical exploration and offers new adventure zones.",
+                "type": "Worldgen / Biomes & Dimensions",
+                "image": null,
+                "version": "2.0.1"
+            },
+            "mcw-stairs-1.0.1-1.20.1forge.jar": {
+                "name": "Macaw's Stairs",
+                "desc": "Part of the Macaw's furniture/decoration series; adds new stair variants made from multiple wood and block types for better building options.",
+                "type": "Building / Decoration",
+                "image": null,
+                "version": "1.0.1-1.20.1"
+            },
+            "immersivemc-1.5.8-1.20.1-forge.jar": {
+                "name": "ImmersiveMC",
+                "desc": "Turns parts of the UI into physical in-world interactions. Allows players to use crafting tables, chests, and other blocks with immersive animations.",
+                "type": "Gameplay / Immersion",
+                "image": null,
+                "version": "1.5.8-1.20.1"
+            },
+            "StorageDrawers-forge-1.20.1-12.14.3.jar": {
+                "name": "Storage Drawers",
+                "desc": "Adds highly efficient storage blocks that visually display contents. Useful for sorting, compacting, and organizing large item quantities.",
+                "type": "Storage / Inventory",
+                "image": null,
+                "version": "1.20.1-12.14.3"
+            },
+            "biggerendcities-1.20.1-1.0.0.jar": {
+                "name": "Bigger End Cities",
+                "desc": "Expands End Cities massively with larger rooms, more loot, and improved layouts to make the End dimension more rewarding.",
+                "type": "Worldgen / Structures",
+                "image": null,
+                "version": "1.20.1-1.0.0"
+            },
+            "mcw-bridges-3.1.0-mc1.20.1forge.jar": {
+                "name": "Macaw's Bridges",
+                "desc": "Adds craftable wooden, stone, rope, and decorative bridges for improved base building and landscape traversal.",
+                "type": "Building / Decoration",
+                "image": null,
+                "version": "3.1.0-mc1.20.1"
+            },
+            "twilightforest-1.20.1-4.3.2508-universal.jar": {
+                "name": "The Twilight Forest",
+                "desc": "A massive dimension mod filled with unique biomes, bosses, dungeons, magic items, and exploration-focused progression.",
+                "type": "Dimension / Adventure",
+                "image": null,
+                "version": "1.20.1-4.3.2508"
+            },
+            "GrimoireOfGaia4-1.20.1-4.0.0-alpha.12.jar": {
+                "name": "Grimoire of Gaia 4",
+                "desc": "Adds challenging mythological-themed mobs with unique combat styles, drops, and progression. Great for difficulty enhancement.",
+                "type": "Mobs / Combat",
+                "image": null,
+                "version": "1.20.1-4.0.0-alpha.12"
+            },
+            "tacz-1.20.1-1.1.7-release.jar": {
+                "name": "TACZ",
+                "desc": "A modern firearms mod featuring detailed guns, attachments, animations, recoil physics, and tactical combat mechanics.",
+                "type": "Combat / Guns",
+                "image": null,
+                "version": "1.20.1-1.1.7"
             }
         },
         "shaders": {

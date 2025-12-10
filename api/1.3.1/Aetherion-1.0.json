@@ -35,15 +35,29 @@
             "workers-1.20.1-1.7.9.1.jar",
             "villagernames-1.20.1-8.2.jar",
             "collective-1.20.1-8.13.jar",
-            "ImmersiveEngineering-1.20.1-10.2.0-183.jar",  
-            "MekanismTools-1.20.1-10.4.16.80.jar", 
-            "MekanismAdditions-1.20.1-10.4.16.80.jar", 
-            "Mekanism-1.20.1-10.4.16.80.jar", 
-            "MekanismGenerators-1.20.1-10.4.16.80.jar"
+            "ImmersiveEngineering-1.20.1-10.2.0-183.jar",
+            "MekanismTools-1.20.1-10.4.16.80.jar",
+            "MekanismAdditions-1.20.1-10.4.16.80.jar",
+            "Mekanism-1.20.1-10.4.16.80.jar",
+            "MekanismGenerators-1.20.1-10.4.16.80.jar",
+            "blue-archive-halo-1.2.2-1.20.1-forge.jar",
+            "livingthings-forge-1.20.1-2.3.0.jar",
+            "structureessentials-1.20.1-4.8.jar",
+            "dungeons-and-taverns-3.0.3.f[Forge].jar",
+            "cupboard-1.20.1-2.7.jar",
+            "aetherial-islands-2.0.1.jar",
+            "mcw-stairs-1.0.1-1.20.1forge.jar",
+            "immersivemc-1.5.8-1.20.1-forge.jar",
+            "StorageDrawers-forge-1.20.1-12.14.3.jar",
+            "biggerendcities-1.20.1-1.0.0.jar",
+            "mcw-bridges-3.1.0-mc1.20.1forge.jar",
+            "twilightforest-1.20.1-4.3.2508-universal.jar",
+            "GrimoireOfGaia4-1.20.1-4.0.0-alpha.12.jar",
+            "tacz-1.20.1-1.1.7-release.jar"
         ]
     },
     "supports": {
-        "mods" : [
+        "mods": [
             "DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar"
         ],
         "shaders": [
@@ -66,7 +80,7 @@
                 "Voyager.zip"
             ]
         ],
-        "resourcepacks" : [
+        "resourcepacks": [
             "Patrix_1.20_32x_bonus.zip",
             "realistic_villagers.zip",
             "realistic-snow.zip",
@@ -86,8 +100,8 @@
             "Vocal Villagers1.2.zip"
         ]
     },
-    "matrix-engine" : {
-        "id"   : "matrix-charlie-alpha-x1",
-        "hash" : "cf7dfdd36610f39c8a83deb7aa5f4cb4a94c9869"
+    "matrix-engine": {
+        "id": "matrix-charlie-alpha-x1",
+        "hash": "cf7dfdd36610f39c8a83deb7aa5f4cb4a94c9869"
     }
 }
