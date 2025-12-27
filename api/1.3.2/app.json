@@ -1,0 +1,601 @@
+{
+    "builds": [
+        "Aetherion-1.0",
+        "Classic"
+    ],
+    "matters": {
+        "mods": {
+            "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar": {
+                "name": "Ambient Sounds",
+                "desc": "Improves environmental and biome ambience.",
+                "type": "Sounds",
+                "image": null,
+                "version": "6.1.11"
+            },
+            "architectury-9.2.14-forge.jar": {
+                "name": "Architectury",
+                "desc": "A cross-platform modding API used by many mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "9.2.14"
+            },
+            "balm-forge-1.20.1-7.3.34-all.jar": {
+                "name": "Balm",
+                "desc": "A library mod providing shared code for various mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "7.3.34"
+            },
+            "car-forge-1.20.1-1.0.45.jar": {
+                "name": "Car Mod",
+                "desc": "Adds drivable cars and automobile components.",
+                "type": "Vehicle",
+                "image": null,
+                "version": "1.0.45"
+            },
+            "com.kythera.seedviewer-1.0.0.jar": {
+                "name": "Kythera Chunk Renderer",
+                "desc": "Renders world chunks and seed previews.",
+                "type": "Add-on",
+                "image": null,
+                "version": "1.0.0"
+            },
+            "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar": {
+                "name": "CreativeCore",
+                "desc": "A required core mod for many advanced mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "2.12.32"
+            },
+            "crossroads-1.20.1-2.10.3.jar": {
+                "name": "Crossroads",
+                "desc": "A tech and magic mod with automation, alchemy, and energy systems.",
+                "type": "Tech",
+                "image": null,
+                "version": "2.10.3"
+            },
+            "curios-forge-5.14.1+1.20.1.jar": {
+                "name": "Curios API",
+                "desc": "Adds extra accessory slots for various mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "5.14.1"
+            },
+            "dimdungeons-202-forge-1.20.1.jar": {
+                "name": "Dimensional Dungeons",
+                "desc": "Adds procedurally generated dungeon dimensions.",
+                "type": "Dungeons",
+                "image": null,
+                "version": "202"
+            },
+            "essentials-1.20.1-2.16.0.jar": {
+                "name": "Essentials",
+                "desc": "Adds helpful utilities, QoL improvements, and commands.",
+                "type": "Utility",
+                "image": null,
+                "version": "2.16.0"
+            },
+            "flib-1.20.1-0.0.15.jar": {
+                "name": "FLib",
+                "desc": "A flexible library for mods like Mowzie's Mobs.",
+                "type": "Dependency",
+                "image": null,
+                "version": "0.0.15"
+            },
+            "geckolib-forge-1.20.1-4.8.2.jar": {
+                "name": "GeckoLib",
+                "desc": "Animation library for complex animated entities.",
+                "type": "Dependency",
+                "image": null,
+                "version": "4.8.2"
+            },
+            "immersive_aircraft-1.4.0+1.20.1-forge.jar": {
+                "name": "Immersive Aircraft",
+                "desc": "Adds flyable aircraft with physics-based controls.",
+                "type": "Vehicle",
+                "image": null,
+                "version": "1.4.0"
+            },
+            "journeymap-1.20.1-5.10.3-forge.jar": {
+                "name": "JourneyMap",
+                "desc": "A real-time minimap and world map.",
+                "type": "UI",
+                "image": null,
+                "version": "5.10.3"
+            },
+            "kotlinforforge-4.11.0-all.jar": {
+                "name": "Kotlin for Forge",
+                "desc": "Kotlin language support for Forge mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "4.11.0"
+            },
+            "moreartifacts-1.5.0-1.20.1.jar": {
+                "name": "More Artifacts",
+                "desc": "Adds new unique items and artifacts.",
+                "type": "Equipment",
+                "image": null,
+                "version": "1.5.0"
+            },
+            "mowziesmobs-1.7.3.jar": {
+                "name": "Mowzie's Mobs",
+                "desc": "Adds high-quality fantasy bosses and creatures.",
+                "type": "Mobs",
+                "image": null,
+                "version": "1.7.3"
+            },
+            "preview_OptiFine_1.20.1_HD_U_I6_pre6.jar": {
+                "name": "OptiFine Preview",
+                "desc": "Graphics enhancements and performance improvements.",
+                "type": "Graphics",
+                "image": null,
+                "version": "HD_U_I6_pre6"
+            },
+            "railroadblocksaddon-1.20-0.6.4.jar": {
+                "name": "Railroad Blocks Addon",
+                "desc": "Expands rail and train-related blocks and decorations.",
+                "type": "Transportation",
+                "image": null,
+                "version": "0.6.4"
+            },
+            "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar": {
+                "name": "Sky Villages",
+                "desc": "Generates sky-floating villages with loot and NPCs.",
+                "type": "World Gen",
+                "image": null,
+                "version": "1.0.4"
+            },
+            "smallships-forge-1.20.1-2.0.0-b1.4.jar": {
+                "name": "Small Ships",
+                "desc": "Adds functional, sail-powered ships.",
+                "type": "Vehicle",
+                "image": null,
+                "version": "2.0.0-b1.4"
+            },
+            "sound-physics-remastered-forge-1.20.1-1.5.1.jar": {
+                "name": "Sound Physics Remastered",
+                "desc": "Adds realistic sound propagation and reverb.",
+                "type": "Sounds",
+                "image": null,
+                "version": "1.5.1"
+            },
+            "stalwart-dungeons-1.20.1-1.2.8.jar": {
+                "name": "Stalwart Dungeons",
+                "desc": "Expands dungeon generation with structures and bosses.",
+                "type": "Dungeons",
+                "image": null,
+                "version": "1.2.8"
+            },
+            "structure_gel-1.20.1-2.16.2.jar": {
+                "name": "Structure Gel API",
+                "desc": "API for structure generation used by worldgen mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "2.16.2"
+            },
+            "ToolBelt-1.20.1-1.20.02.jar": {
+                "name": "ToolBelt",
+                "desc": "Adds a belt item for storing and quickly accessing tools.",
+                "type": "Equipment",
+                "image": null,
+                "version": "1.20.02"
+            },
+            "villagertools-1.20.1-1.0.3.jar": {
+                "name": "Villager Tools",
+                "desc": "Tools for editing, managing, and improving villagers.",
+                "type": "Utility",
+                "image": null,
+                "version": "1.0.3"
+            },
+            "waystones-forge-1.20.1-14.1.17.jar": {
+                "name": "Waystones",
+                "desc": "Adds teleportation waystones for fast travel.",
+                "type": "Utility",
+                "image": null,
+                "version": "14.1.17"
+            },
+            "create-1.20.1-6.0.8.jar": {
+                "name": "Create",
+                "desc": "Mechanical automation and contraptions mod.",
+                "type": "Tech",
+                "image": null,
+                "version": "6.0.8"
+            },
+            "lukis-grand-capitals-1.1.2.jar": {
+                "name": "Luki's Grand Capitals",
+                "desc": "Adds massive city structures and capitals around the world.",
+                "type": "World Gen",
+                "image": null,
+                "version": "1.1.2"
+            },
+            "DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar": {
+                "name": "Distant Horizons",
+                "desc": "Lod-based world rendering to extend render distance massively.",
+                "type": "Graphics",
+                "image": null,
+                "version": "2.3.6-b"
+            },
+            "veinminer-1.1.0.jar": {
+                "name": "VeinMiner",
+                "desc": "Allows mining entire veins of ore by breaking a single block.",
+                "type": "Utility",
+                "image": null,
+                "version": "1.1.0"
+            },
+            "jei-1.20.1-forge-15.20.0.126.jar": {
+                "name": "Just Enough Items (JEI)",
+                "desc": "Provides item recipes, uses, and a searchable item list.",
+                "type": "Utility",
+                "image": null,
+                "version": "15.20.0.126"
+            },
+            "valkyrienskies-120-2.3.0-beta.12.jar": {
+                "name": "Valkyrien Skies",
+                "desc": "Adds realistic, controllable block-built ships with physics and buoyancy for Minecraft.",
+                "type": "Transportation",
+                "image": null,
+                "version": "2.3.0-beta.12"
+            },
+            "eurekaintergrated-1.0.0-forge-1.20.1.jar": {
+                "name": "Valkyrien Skies Eureka Integrated Ships",
+                "desc": "Adds ready-made ship structures for use with Valkyrien Skies and Eureka! Ships., allowing immediate sailing ships without custom build.",
+                "type": "Transportation",
+                "image": null,
+                "version": "1.0.0"
+            },
+            "eureka-1201-1.5.2-beta.3.jar": {
+                "name": "Eureka! Ships!",
+                "desc": "Addon for Valkyrien Skies — lets you build block‑built ships (boats/airships) with a Ship Helm, then assemble and sail them with physics.",
+                "type": "Transportation",
+                "image": null,
+                "version": "1.5.2-beta.3"
+            },
+            "workers-1.20.1-1.7.9.1.jar": {
+                "name": "Villager Workers",
+                "desc": "Adds hireable villager workers that can farm, mine, fish, and perform tasks for you — automates resource gathering and other labour.",
+                "type": "Utility",
+                "image": null,
+                "version": "1.7.9.1"
+            },
+            "villagernames-1.20.1-8.2.jar": {
+                "name": "Villager Names",
+                "desc": "Gives all villagers — vanilla and modded — a default or custom name to make villages more lively. Names appear on the trade screen along with profession. Requires Collective library. :contentReference[oaicite:2]{index=2}",
+                "type": "Utility",
+                "image": null,
+                "version": "1.20.1-8.2"
+            },
+            "collective-1.20.1-8.13.jar": {
+                "name": "Collective",
+                "desc": "A shared library mod used by Serilum’s mods (like Villager Names) — provides common code, config support, and compatibility across Forge/Fabric loaders. :contentReference[oaicite:3]{index=3}",
+                "type": "Library",
+                "image": null,
+                "version": "1.20.1-8.13"
+            },
+            "ImmersiveEngineering-1.20.1-10.2.0-183.jar": {
+                "name": "Immersive Engineering",
+                "desc": "A realistic industrial technology mod focused on electricity, heavy machinery, multiblock structures, and believable engineering systems. Adds power lines, crushers, excavators, refineries, diesel generators, conveyors, and industrial aesthetics.",
+                "type": "Tech / Engineering",
+                "image": null,
+                "version": "1.20.1-10.2.0-183"
+            },
+            "ImmersivePetroleum-1.20.1-4.3.0-30.jar": {
+                "name": "Immersive Petroleum",
+                "desc": "Addon for Immersive Engineering that adds oil fields, pumpjacks, crude oil, refining chains, asphalt, jet fuel, and advanced fuel processing systems. Extends IE’s industrial gameplay with real petroleum engineering.",
+                "type": "Addon / Oil & Fuel",
+                "image": null,
+                "version": "1.20.1-4.3.0-30"
+            },
+            "Mekanism-1.20.1-10.4.16.80.jar": {
+                "name": "Mekanism",
+                "desc": "A high-tech industrial mod featuring advanced machines, digital miners, gas processing, ore tripling/quintupling, teleporters, factories, and universal energy systems. Highly automation-focused with deep tech progression.",
+                "type": "Tech / High-Tech Machinery",
+                "image": null,
+                "version": "1.20.1-10.4.16.80"
+            },
+            "MekanismGenerators-1.20.1-10.4.16.80.jar": {
+                "name": "Mekanism Generators",
+                "desc": "Addon for Mekanism that adds power generation systems: heat generators, bio generators, gas-burning generators, fission reactors, fusion reactors, and turbine systems. Provides mid-to-late-game massive power scaling.",
+                "type": "Addon / Power Generation",
+                "image": null,
+                "version": "1.20.1-10.4.16.80"
+            },
+            "MekanismAdditions-1.20.1-10.4.16.80.jar": {
+                "name": "Mekanism Additions",
+                "desc": "Supplementary Mekanism module adding logistical and cosmetic features like balloons, glow panels, baby mobs, and additional blocks/items used in Mekanism’s expanded recipes and mechanics.",
+                "type": "Addon / Cosmetic + Utility",
+                "image": null,
+                "version": "1.20.1-10.4.16.80"
+            },
+            "MekanismTools-1.20.1-10.4.16.80.jar": {
+                "name": "Mekanism Tools",
+                "desc": "Addon for Mekanism providing toolsets and armor made from Mekanism materials (Osmium, Steel, Bronze, Refined Glowstone, Refined Obsidian). Includes paxels, a multitool that functions as pickaxe + axe + shovel.",
+                "type": "Addon / Tools & Armor",
+                "image": null,
+                "version": "1.20.1-10.4.16.80"
+            },
+            "blue-archive-halo-1.2.2-1.20.1-forge.jar": {
+                "name": "Blue Archive Halo",
+                "desc": "Adds Halo-themed cosmetic effects inspired by Blue Archive, giving players floating halos and visual flair. Mostly aesthetic, no major gameplay changes.",
+                "type": "Cosmetic / Aesthetic",
+                "image": null,
+                "version": "1.2.2-1.20.1"
+            },
+            "livingthings-forge-1.20.1-2.3.0.jar": {
+                "name": "Living Things",
+                "desc": "Introduces a wide variety of new animals and creatures to the world, improving biome diversity with new mobs, animations, and behaviors.",
+                "type": "Mobs / World Expansion",
+                "image": null,
+                "version": "1.20.1-2.3.0"
+            },
+            "structureessentials-1.20.1-4.8.jar": {
+                "name": "Structure Essentials",
+                "desc": "Adds numerous custom structures across the overworld and other dimensions, enriching exploration with new buildings, ruins, and points of interest.",
+                "type": "Worldgen / Structures",
+                "image": null,
+                "version": "1.20.1-4.8"
+            },
+            "dungeons-and-taverns-3.0.3.f[Forge].jar": {
+                "name": "Dungeons & Taverns",
+                "desc": "Overhauls world generation with RPG-style dungeons, catacombs, taverns, fortresses, and handcrafted structures for enhanced exploration.",
+                "type": "Worldgen / Dungeons",
+                "image": null,
+                "version": "3.0.3.f"
+            },
+            "cupboard-1.20.1-2.7.jar": {
+                "name": "Cupboard",
+                "desc": "Library mod providing shared code and utilities for various mods. Required as a dependency for multiple worldgen and creature mods.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "1.20.1-2.7"
+            },
+            "aetherial-islands-2.0.1.jar": {
+                "name": "Aetherial Islands",
+                "desc": "Adds floating sky islands with custom biomes, structures, and loot. Enhances vertical exploration and offers new adventure zones.",
+                "type": "Worldgen / Biomes & Dimensions",
+                "image": null,
+                "version": "2.0.1"
+            },
+            "mcw-stairs-1.0.1-1.20.1forge.jar": {
+                "name": "Macaw's Stairs",
+                "desc": "Part of the Macaw's furniture/decoration series; adds new stair variants made from multiple wood and block types for better building options.",
+                "type": "Building / Decoration",
+                "image": null,
+                "version": "1.0.1-1.20.1"
+            },
+            "immersivemc-1.5.8-1.20.1-forge.jar": {
+                "name": "ImmersiveMC",
+                "desc": "Turns parts of the UI into physical in-world interactions. Allows players to use crafting tables, chests, and other blocks with immersive animations.",
+                "type": "Gameplay / Immersion",
+                "image": null,
+                "version": "1.5.8-1.20.1"
+            },
+            "StorageDrawers-forge-1.20.1-12.14.3.jar": {
+                "name": "Storage Drawers",
+                "desc": "Adds highly efficient storage blocks that visually display contents. Useful for sorting, compacting, and organizing large item quantities.",
+                "type": "Storage / Inventory",
+                "image": null,
+                "version": "1.20.1-12.14.3"
+            },
+            "biggerendcities-1.20.1-1.0.0.jar": {
+                "name": "Bigger End Cities",
+                "desc": "Expands End Cities massively with larger rooms, more loot, and improved layouts to make the End dimension more rewarding.",
+                "type": "Worldgen / Structures",
+                "image": null,
+                "version": "1.20.1-1.0.0"
+            },
+            "mcw-bridges-3.1.0-mc1.20.1forge.jar": {
+                "name": "Macaw's Bridges",
+                "desc": "Adds craftable wooden, stone, rope, and decorative bridges for improved base building and landscape traversal.",
+                "type": "Building / Decoration",
+                "image": null,
+                "version": "3.1.0-mc1.20.1"
+            },
+            "twilightforest-1.20.1-4.3.2508-universal.jar": {
+                "name": "The Twilight Forest",
+                "desc": "A massive dimension mod filled with unique biomes, bosses, dungeons, magic items, and exploration-focused progression.",
+                "type": "Dimension / Adventure",
+                "image": null,
+                "version": "1.20.1-4.3.2508"
+            },
+            "GrimoireOfGaia4-1.20.1-4.0.0-alpha.12.jar": {
+                "name": "Grimoire of Gaia 4",
+                "desc": "Adds challenging mythological-themed mobs with unique combat styles, drops, and progression. Great for difficulty enhancement.",
+                "type": "Mobs / Combat",
+                "image": null,
+                "version": "1.20.1-4.0.0-alpha.12"
+            },
+            "tacz-1.20.1-1.1.7-release.jar": {
+                "name": "TACZ",
+                "desc": "A modern firearms mod featuring detailed guns, attachments, animations, recoil physics, and tactical combat mechanics.",
+                "type": "Combat / Guns",
+                "image": null,
+                "version": "1.20.1-1.1.7"
+            }
+        },
+        "shaders": {
+            "Alexei03a V2 Shader Pack.zip": {
+                "name": "Alexei03a V2",
+                "desc": "A lightweight, vibrant shader focused on clarity and soft lighting.",
+                "image": null,
+                "version": "2.1"
+            },
+            "Balanced.zip": {
+                "name": "Balanced Shader",
+                "desc": "A well-balanced shader with smooth lighting and stable FPS.",
+                "image": null,
+                "version": "1.0"
+            },
+            "Chocapic13 V3 Ultra Optimized Shader Pack.zip": {
+                "name": "Chocapic13 V3 Ultra Optimized",
+                "desc": "Highly optimized version of Chocapic13 with strong visuals and low GPU load.",
+                "image": null,
+                "version": "3.0"
+            },
+            "Chocolate 2.zip": {
+                "name": "Chocolate Shaders 2",
+                "desc": "Warm-toned visuals with enhanced bloom and saturated lighting.",
+                "image": null,
+                "version": "2.0"
+            },
+            "Chocolate.zip": {
+                "name": "Chocolate Shaders",
+                "desc": "Soft cinematic lighting with chocolate-themed color warmth.",
+                "image": null,
+                "version": "1.0"
+            },
+            "GoodMorning.zip": {
+                "name": "Good Morning",
+                "desc": "Bright morning-style lighting with soft shadows and calm ambience.",
+                "image": null,
+                "version": "1.0"
+            },
+            "HappyFace.zip": {
+                "name": "HappyFace Shader",
+                "desc": "Colorful and cheerful shader with boosted vibrance and smooth bloom.",
+                "image": null,
+                "version": "1.0"
+            },
+            "Insane-Nights.zip": {
+                "name": "Insane Nights",
+                "desc": "Dark, dramatic nighttime visuals with glowing atmospherics.",
+                "image": null,
+                "version": "1.0"
+            },
+            "iterationT 3.2.0.zip": {
+                "name": "IterationT",
+                "desc": "Modern shader with realistic reflections and detailed lighting.",
+                "image": null,
+                "version": "3.2.0"
+            },
+            "Punchy.zip": {
+                "name": "Punchy Shader",
+                "desc": "High-contrast visuals with punchy colors and crisp highlights.",
+                "image": null,
+                "version": "1.0"
+            },
+            "Remastered v2.zip": {
+                "name": "Remastered Shader V2",
+                "desc": "Enhanced remastered shader with improved shadows and reflections.",
+                "image": null,
+                "version": "2.0"
+            },
+            "Remastered.zip": {
+                "name": "Remastered Shader",
+                "desc": "A polished shader with cinematic colors and smooth ambient occlusion.",
+                "image": null,
+                "version": "1.0"
+            },
+            "Sasukedll7170s v06 Ultra Shader Pack.zip": {
+                "name": "Sasukedll7170s Ultra V06",
+                "desc": "High-end shader with extreme bloom, depth effects, and bright visuals.",
+                "image": null,
+                "version": "0.6"
+            },
+            "SEUS v10.0 Ultra DOF.zip": {
+                "name": "SEUS v10 Ultra DOF",
+                "desc": "Classic SEUS with cinematic depth-of-field and smooth lighting.",
+                "image": null,
+                "version": "10.0"
+            },
+            "Sunny.zip": {
+                "name": "Sunny Shader",
+                "desc": "Bright natural lighting with emphasis on warm sunlight and clarity.",
+                "image": null,
+                "version": "1.0"
+            },
+            "Voyager.zip": {
+                "name": "Voyager Shader",
+                "desc": "Stylized shader with bold colors and atmospheric clouds.",
+                "image": null,
+                "version": "1.0"
+            }
+        },
+        "resourcepacks": {
+            "Patrix_1.20_32x_bonus.zip": {
+                "name": "Patrix 32x",
+                "desc": "Enhanced Textures",
+                "size": "3.41MB"
+            },
+            "realistic_villagers.zip": {
+                "name": "Realistic Villagers",
+                "desc": "Villagers Enhanced",
+                "size": "2.06MB"
+            },
+            "realistic-snow.zip": {
+                "name": "Realistic Snow",
+                "desc": "Realistic SnowFall Efect",
+                "size": "17.7KB"
+            },
+            "Snowy_Mountains_Sky_[v1.7].zip": {
+                "name": "Snowy Mountains Sky",
+                "desc": "An Extreme Mountains Background",
+                "size": "67.5MB"
+            },
+            "3d Ladders 1.1.zip": {
+                "name": "3d Ladders",
+                "desc": "Improved Visuals of Ladders",
+                "size": "12.2KB"
+            },
+            "Alacrity.zip": {
+                "name": "Alacrity",
+                "desc": "Realistic Shaders",
+                "size": "43.5MB"
+            },
+            "animated-items-1_20-1 - 1_4.zip": {
+                "name": "Animated Items",
+                "desc": "Adds Animations for some Items",
+                "size": "648KB"
+            },
+            "AVPBR Retextured R5.zip": {
+                "name": "AVPBR Retextured",
+                "desc": "Overhaul improvs",
+                "size": "12.5MB"
+            },
+            "Better Boats.zip": {
+                "name": "Better Boats",
+                "desc": "Improved Visuals of Boats",
+                "size": "66.5KB"
+            },
+            "Better Title Screens.zip": {
+                "name": "Better Title Screens",
+                "desc": "Good title Screeen",
+                "size": "9.26MB"
+            },
+            "Better_Dogs_V0.41.zip": {
+                "name": "Better Dogs",
+                "desc": "Improved Visuals of Dogs/Wolfs",
+                "size": "10.9MB"
+            },
+            "Better+Lanterns+v1.2(mc-1.20.1).zip": {
+                "name": "Better Lanterns",
+                "desc": "Improved Visuals of Lanterns",
+                "size": "50.1KB"
+            },
+            "Colourful[1.20-1.20.2].zip": {
+                "name": "Colourful",
+                "desc": "Improved textures",
+                "size": "2.25MB"
+            },
+            "FreshAnimations_v1.10.2.zip": {
+                "name": "Fresh Animations",
+                "desc": "Adds Animations for some things",
+                "size": "814KB"
+            },
+            "Ricks Default 9_1.zip": {
+                "name": "Rics Default",
+                "desc": "Improved visuals",
+                "size": "8.03MB"
+            },
+            "Unique Dark - Lite - 1.20.1.zip": {
+                "name": "Unique Dark Lite",
+                "desc": "Dark GUI",
+                "size": "7.23MB"
+            },
+            "Vocal Villagers1.2.zip": {
+                "name": "Vocal Vilagers",
+                "desc": "Imporved villagers Sound",
+                "size": "1.09MB"
+            }
+        }
+    }
+}
