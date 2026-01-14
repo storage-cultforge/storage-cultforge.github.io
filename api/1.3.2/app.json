@@ -411,19 +411,208 @@
                 "image": null,
                 "version": "1.20.1-1.1.7"
             },
-            "morevillagers-forge-1.20.1-5.0.0.jar" : {
-                "name": "More Villagers",
-                "desc": "Adds new villager jobs, with unique trades, workstations, and advancements!",
-                "type": "Addon / Village",
-                "image": "637575570334274568.png",
-                "version": "1.20.1-5.0.0"
+            "carryon-forge-1.20.1-2.1.2.7.jar": {
+                "name": "Carry On",
+                "desc": "Allows players to pick up and move blocks and entities such as chests, spawners, and animals.",
+                "type": "Gameplay",
+                "image": null,
+                "version": "2.1.2.7"
             },
-            "blue_skies-1.20.1-1.3.31.jar" : {
-                "name": "Blue Skies",
-                "desc": "Blue Skies is survival mod that adds aspects like dimensions, dungeons and more in a light and dark scenario.",
-                "type": "Dimension / Adventure",
-                "image": "637131079632015619.png",
-                "version": "1.20.1-1.3.31"
+            "industrial-foregoing-1.20.1-3.5.21.jar": {
+                "name": "Industrial Foregoing",
+                "desc": "A tech automation mod focused on resource generation, farming, and machine-based automation.",
+                "type": "Tech",
+                "image": null,
+                "version": "3.5.21"
+            },
+            "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
+                "name": "Mouse Tweaks",
+                "desc": "Improves inventory management by adding advanced mouse controls for item movement.",
+                "type": "Utility",
+                "image": null,
+                "version": "2.25.1"
+            },
+            "norabotics-1.0.3-all.jar": {
+                "name": "NoraBots",
+                "desc": "Adds programmable robots and automation-focused entities to assist with tasks.",
+                "type": "Robotics",
+                "image": null,
+                "version": "1.0.3"
+            },
+            "Patchouli-1.20.1-84.1-FORGE.jar": {
+                "name": "Patchouli",
+                "desc": "A modding library for creating in-game documentation books with rich formatting.",
+                "type": "Dependency",
+                "image": null,
+                "version": "84.1"
+            },
+            "rlovelyr-forge-1.20.1-1.1.0.jar": {
+                "name": "Lovely Robot Reboot",
+                "desc": "Adds customizable robot companions with unique behaviors and abilities.",
+                "type": "Companion",
+                "image": null,
+                "version": "1.1.0"
+            },
+            "sophisticatedbackpacks-1.20.1-3.24.20.1500.jar": {
+                "name": "Sophisticated Backpacks",
+                "desc": "Adds highly upgradeable backpacks with automation and inventory management features.",
+                "type": "Storage",
+                "image": null,
+                "version": "3.24.20.1500"
+            },
+            "sophisticatedcore-1.20.1-1.2.119.1369.jar": {
+                "name": "Sophisticated Core",
+                "desc": "Core library required for Sophisticated Backpacks and related mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "1.2.119.1369"
+            },
+            "titanium-1.20.1-3.8.32.jar": {
+                "name": "Titanium",
+                "desc": "A shared library mod providing utilities and systems used by many tech mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "3.8.32"
+            },
+            "Fog-forge-1.5.3-1.20.1.jar": {
+                "name": "Fog",
+                "desc": "Enhances fog rendering with dynamic, customizable effects—improving atmosphere and depth while preserving the vanilla experience.",
+                "type": "Gameplay / Immersion",
+                "image": null,
+                "version": "3.8.32"
+            },
+            "cc-tweaked-1.20.1-forge-1.111.0.jar": {
+                "name": "CC:Tweaked",
+                "desc": "CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft.",
+                "type": "Tech / High-Tech Machinery",
+                "image": null,
+                "version": "1.110.0"
+            },
+            "decorativecomputers-2.0.0-forge-1.20.1.jar": {
+                "name": "DECORATIVE COMPUTERS",
+                "desc": "DECORATIVE COMPUTERS- small mod that will improve the decor in the game, added computers you can decorate your home with them.",
+                "type": "Tech / High-Tech Machinery",
+                "image": null,
+                "version": "2.0.0"
+            },
+            "IntegratedDynamics-1.20.1-1.29.10.jar": {
+                "name": "Integrated Dynamics",
+                "desc": "A mod to take full and automated control of your appliances.",
+                "type": "Tech / Engineering",
+                "image": null,
+                "version": "2.0.0"
+            },
+            "CyclopsCore-1.20.1-1.21.3.jar": {
+                "name": "Cyclops Core",
+                "desc": "Library mod for EvilCraft, Integrated Dynamics and others.",
+                "type": "Dependency",
+                "image": null,
+                "version": "2.0.0"
+            },
+            "CommonCapabilities-1.20.1-2.9.11.jar": {
+                "name": "Common Capabilities",
+                "desc": "Forge Capabilities that can be shared by multiple mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "2.0.0"
+            },
+            "IntegratedTunnels-1.20.1-1.9.3.jar": {
+                "name": "Integrated Tunnels",
+                "desc": "Transfer other stuff over Integrated Dynamics networks",
+                "type": "Tech / Engineering",
+                "image": null,
+                "version": "2.0.0"
+            },
+            "IntegratedTerminals-1.20.1-1.6.16.jar": {
+                "name": "Integrated Terminals",
+                "desc": "Terminals for managing and overviewing Integrated Dynamics networks.",
+                "type": "Tech / Engineering",
+                "image": null,
+                "version": "2.0.0"
+            },
+            "IntegratedCrafting-1.20.1-1.4.1.jar": {
+                "name": "Integrated Crafting",
+                "desc": "Craft stuff in Integrated Dynamics networks.",
+                "type": "Tech / Engineering",
+                "image": null,
+                "version": "2.0.0"
+            },
+            "ars_nouveau-1.20.1-4.12.7-all.jar": {
+                "name": "Ars Nouveau",
+                "desc": "A magic mod centered around spell creation, automation, and magical devices powered by mana.",
+                "type": "Magic",
+                "image": null,
+                "version": "4.12.7"
+            },
+            "ars_ocultas-1.20.1-1.2.2-all.jar": {
+                "name": "Ars Ocultas",
+                "desc": "An addon for Ars Nouveau that expands spellcrafting and magical mechanics with darker themes.",
+                "type": "Magic Addon",
+                "image": null,
+                "version": "1.2.2"
+            },
+            "c4p-1.0.0.jar": {
+                "name": "C4P",
+                "desc": "A lightweight compatibility or utility mod designed to support peripheral or integration features.",
+                "type": "Utility",
+                "image": null,
+                "version": "1.0.0"
+            },
+            "modonomicon-1.20.1-forge-1.79.3.jar": {
+                "name": "Modonomicon",
+                "desc": "A modern in-game documentation library used by mods to create interactive guidebooks.",
+                "type": "Dependency",
+                "image": null,
+                "version": "1.79.3"
+            },
+            "MorePeripherals_1.20.1-1.13.0.jar": {
+                "name": "More Peripherals",
+                "desc": "Adds additional peripherals and devices for CC: Tweaked computers and turtles.",
+                "type": "Computer Integration",
+                "image": null,
+                "version": "1.13.0"
+            },
+            "morered-1.20.1-4.0.0.4.jar": {
+                "name": "More Red",
+                "desc": "Expands redstone with bundled cables, logic components, and advanced wiring systems.",
+                "type": "Redstone",
+                "image": null,
+                "version": "4.0.0.4"
+            },
+            "MoreRed-CCT-Compat-1.20.1-1.0.0.jar": {
+                "name": "More Red CC:T Compat",
+                "desc": "Adds compatibility between More Red redstone systems and CC: Tweaked computers.",
+                "type": "Compatibility",
+                "image": null,
+                "version": "1.0.0"
+            },
+            "occultism-1.20.1-1.157.0.jar": {
+                "name": "Occultism",
+                "desc": "A magic mod focused on rituals, summoning spirits, automation via familiars, and storage systems.",
+                "type": "Magic",
+                "image": null,
+                "version": "1.157.0"
+            },
+            "SmartBrainLib-forge-1.20.1-1.15.jar": {
+                "name": "SmartBrainLib",
+                "desc": "A library that improves and simplifies entity AI behavior systems for mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "1.15"
+            },
+            "telluriumforge-1.4.0-1.20.1-forge.jar": {
+                "name": "Tellurium",
+                "desc": "A core utility and library mod providing shared systems for Tellurium-based mods.",
+                "type": "Dependency",
+                "image": null,
+                "version": "1.4.0"
+            },
+            "toms-peripherals-1.20.1-1.3.0.jar": {
+                "name": "Tom's Peripherals",
+                "desc": "Adds new peripherals and blocks for CC: Tweaked, expanding computer interaction possibilities.",
+                "type": "Computer Integration",
+                "image": null,
+                "version": "1.3.0"
             }
         },
         "shaders": {
