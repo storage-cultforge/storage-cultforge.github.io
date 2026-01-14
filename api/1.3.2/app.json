@@ -634,6 +634,20 @@
                 "type": "Visual / Lighting",
                 "image": null,
                 "version": "1.20.1.2"
+            },
+            "MRU-1.0.4+1.20.1+forge.jar": {
+                "name": "MRU",
+                "desc": "A utility library providing core features and shared resources for Forge mods.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "1.0.4"
+            },
+            "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar": {
+                "name": "Yet Another Config Lib v3",
+                "desc": "A configuration library for Forge mods that simplifies mod config creation and management.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "3.6.6"
             }
         },
         "shaders": {
