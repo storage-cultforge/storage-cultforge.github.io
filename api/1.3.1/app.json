@@ -612,6 +612,27 @@
                 "type": "Computer Integration",
                 "image": null,
                 "version": "1.3.0"
+            },
+            "better-clouds-1.3.37-beta+1.20.1-forge.rev.e63efe2.jar": {
+                "name": "Better Clouds",
+                "desc": "Enhances Minecraft clouds with more realistic shapes, movement, and animations.",
+                "type": "Visual / Atmosphere",
+                "image": null,
+                "version": "1.3.37-beta"
+            },
+            "ShoulderSurfing-Forge-1.20.1-4.18.2.jar": {
+                "name": "Shoulder Surfing Reloaded",
+                "desc": "Improves third-person camera angles and perspective, giving smooth shoulder view transitions.",
+                "type": "Camera / Immersion",
+                "image": null,
+                "version": "4.18.2"
+            },
+            "dynamiclights-1.20.1.2.jar": {
+                "name": "Dynamic Lights",
+                "desc": "Adds dynamic lighting from held or dropped light-emitting items, improving immersion and visibility.",
+                "type": "Visual / Lighting",
+                "image": null,
+                "version": "1.20.1.2"
             }
         },
         "shaders": {
