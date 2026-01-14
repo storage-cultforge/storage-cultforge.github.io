@@ -647,6 +647,167 @@
                 "type": "Library / Dependency",
                 "image": null,
                 "version": "3.6.6"
+            },
+            "callfromthedepth_-3.7.7.jar": {
+                "name": "Call From The Depth",
+                "desc": "A horror-themed mod that adds deep-ocean threats, eerie encounters, and atmospheric dangers lurking beneath the seas.",
+                "type": "Gameplay / Horror",
+                "image": null,
+                "version": "3.7.7"
+            },
+            "From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar": {
+                "name": "From The Fog",
+                "desc": "A psychological horror mod inspired by Herobrine, introducing unsettling events, strange sightings, and immersive tension into the world.",
+                "type": "Gameplay / Horror",
+                "image": null,
+                "version": "1.9.2"
+            },
+            "recruits-1.20.1-1.14.2.1.jar": {
+                "name": "Recruits",
+                "desc": "Adds recruitable NPC soldiers that can be commanded, equipped, and used for defense or combat.",
+                "type": "Gameplay / NPC",
+                "image": null,
+                "version": "1.14.2.1"
+            },
+            "[forge]ctov-3.4.14.jar": {
+                "name": "ChoiceTheorem's Overhauled Villages",
+                "desc": "Overhauls vanilla village structures with improved layouts and biome-based designs.",
+                "type": "Worldgen / Structures",
+                "image": null,
+                "version": "3.4.14"
+            },
+            "lithostitched-forge-1.20.1-1.4.11.jar": {
+                "name": "Lithostitched",
+                "desc": "A world generation library used for stitching and managing complex terrain and biome features.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "1.4.11"
+            },
+            "coroutil-forge-1.20.1-1.3.7.jar": {
+                "name": "CoroUtil",
+                "desc": "A core utility library required by several mods for shared systems and helpers.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "1.3.7"
+            },
+            "weather2-1.20.1-2.8.3.jar": {
+                "name": "Localized Weather & Storms",
+                "desc": "Adds realistic storms, tornadoes, wind systems, and localized weather events.",
+                "type": "Gameplay / Environment",
+                "image": null,
+                "version": "2.8.3"
+            },
+            "refurbished_furniture-forge-1.20.1-1.0.20.jar": {
+                "name": "Refurbished Furniture",
+                "desc": "Adds modern and decorative furniture blocks for detailed interior builds.",
+                "type": "Decoration",
+                "image": null,
+                "version": "1.0.20"
+            },
+            "framework-forge-1.20.1-0.7.15.jar": {
+                "name": "Framework",
+                "desc": "A shared modding framework library used by multiple Forge mods.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "0.7.15"
+            },
+            "TConstruct-1.20.1-3.11.2.166.jar": {
+                "name": "Tinkers' Construct",
+                "desc": "A modular tool and weapon crafting mod with customizable parts and materials.",
+                "type": "Gameplay / Tech",
+                "image": null,
+                "version": "3.11.2.166"
+            },
+            "Mantle-1.20.1-1.11.97.jar": {
+                "name": "Mantle",
+                "desc": "A required library providing shared code for Tinkers' Construct and related mods.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "1.11.97"
+            },
+            "Stargate Journey-1.20.1-0.6.44.jar": {
+                "name": "Stargate Journey",
+                "desc": "Adds Stargates, interdimensional travel, and technology inspired by the Stargate universe.",
+                "type": "Gameplay / Sci-Fi",
+                "image": null,
+                "version": "0.6.44"
+            },
+            "phantasmic-1.20.1-0.2.5.jar": {
+                "name": "Phantasmic",
+                "desc": "Expands the End dimension with new biomes, mobs, and atmospheric content.",
+                "type": "Worldgen / Dimension",
+                "image": null,
+                "version": "0.2.5"
+            },
+            "enlightend-5.0.14-1.20.1.jar": {
+                "name": "Enlightend",
+                "desc": "Adds mystical biomes, blocks, and ambient world features with a fantasy theme.",
+                "type": "Worldgen / Fantasy",
+                "image": null,
+                "version": "5.0.14"
+            },
+            "exoticbirds-1.20.1-1.0.0.jar": {
+                "name": "Exotic Birds",
+                "desc": "Introduces a wide variety of bird species with unique behaviors and environments.",
+                "type": "Gameplay / Mobs",
+                "image": null,
+                "version": "1.0.0"
+            },
+            "humancompanions-1.20.1-1.7.6.jar": {
+                "name": "Human Companions",
+                "desc": "Adds friendly human NPC companions that assist players during exploration and combat.",
+                "type": "Gameplay / NPC",
+                "image": null,
+                "version": "1.7.6"
+            },
+            "AdChimneys-1.20.1-10.1.27.0-build.1878.jar": {
+                "name": "Advanced Chimneys",
+                "desc": "Adds functional chimneys that vent smoke properly from furnaces and fireplaces.",
+                "type": "Decoration / Utility",
+                "image": null,
+                "version": "10.1.27.0"
+            },
+            "ForgeEndertech-1.20.1-11.1.9.1-build.1912.jar": {
+                "name": "ForgeEndertech",
+                "desc": "A core technology and utility library required by several Forge mods.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "11.1.9.1"
+            },
+            "blueprint-1.20.1-7.1.3.jar": {
+                "name": "Blueprint",
+                "desc": "A library mod providing data-driven registries and utilities for worldgen mods.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "7.1.3"
+            },
+            "atmospheric-1.20.1-6.1.1.jar": {
+                "name": "Atmospheric",
+                "desc": "Adds new biomes, wood types, blocks, and environmental features to the Overworld.",
+                "type": "Worldgen / Biomes",
+                "image": null,
+                "version": "6.1.1"
+            },
+            "sittingplus-2.0.5-1.20.1.jar": {
+                "name": "Sitting+",
+                "desc": "Allows players to sit on stairs, slabs, and various blocks.",
+                "type": "Utility / QoL",
+                "image": null,
+                "version": "2.0.5"
+            },
+            "player-animation-lib-forge-1.0.2-rc1+1.20.jar": {
+                "name": "Player Animation Library",
+                "desc": "Provides advanced player animation support for Forge mods.",
+                "type": "Library / Dependency",
+                "image": null,
+                "version": "1.0.2-rc1"
+            },
+            "comfortable-campfires-1.1.2+1.19.2.jar": {
+                "name": "Comfortable Campfires",
+                "desc": "Enhances campfires with healing, sitting, and comfort-related mechanics.",
+                "type": "Gameplay / QoL",
+                "image": null,
+                "version": "1.1.2"
             }
         },
         "shaders": {
