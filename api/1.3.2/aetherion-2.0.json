@@ -89,9 +89,7 @@
         ]
     },
     "supports": {
-        "mods": [
-            "DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar"
-        ],
+        "mods": [],
         "shaders": [
             [
                 "Alexei03a V2 Shader Pack.zip",
@@ -131,9 +129,5 @@
             "Unique Dark - Lite - 1.20.1.zip",
             "Vocal Villagers1.2.zip"
         ]
-    },
-    "matrix-engine": {
-        "id": "matrix-charlie-alpha-x1",
-        "hash": "cf7dfdd36610f39c8a83deb7aa5f4cb4a94c9869"
     }
 }

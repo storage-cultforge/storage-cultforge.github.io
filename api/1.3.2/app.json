@@ -1,8 +1,4 @@
 {
-    "builds": [
-        "Aetherion-1.0",
-        "Classic"
-    ],
     "matters": {
         "mods": {
             "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar": {
